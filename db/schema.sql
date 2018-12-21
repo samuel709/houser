@@ -12,3 +12,8 @@ INSERT INTO house(name, address, city, state, zip)
 VALUES('Sunshine House', '1234 S Main St.', 'Fredricksburg', 'TX', 88888),
 ('Batman House', 'Bat Cave', 'Gotham', 'UT', 12345),
 ('Titan Tower', 'Pacific Ocean 1423 N', 'San Diego', 'CA', 55524)
+
+ALTER TABLE house
+ADD COLUMN image TEXT,
+ADD COLUMN mortgage INTEGER,
+ADD COLUMN rent INTEGER

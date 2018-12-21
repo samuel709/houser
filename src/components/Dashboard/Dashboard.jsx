@@ -33,7 +33,7 @@ class Dashboard extends Component {
         return (
             <div>
                 This is the dashboard
-                <Link to='/wizard'>
+                <Link to='/wizard/step1'>
                     <button>Add new property</button>
                 </Link>
                 <House houses={this.state.houses}

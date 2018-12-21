@@ -9,6 +9,9 @@ export default function(props) {
                 {val.city}
                 {val.state}
                 {val.zip}
+                {val.image}
+                {val.mortgage}
+                {val.rent}
                 <button onClick={() => props.deleteHouse(val.id)}>Delete</button>
             </div>)
     })

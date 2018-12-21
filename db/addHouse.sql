@@ -1,2 +1,2 @@
-INSERT INTO house(name, address, city, state, zip)
-VALUES(${name}, ${address}, ${city}, ${state}, ${zip})
+INSERT INTO house(name, address, city, state, zip, image, mortgage, rent)
+VALUES(${name}, ${address}, ${city}, ${state}, ${zip}, ${image}, ${mortgage}, ${rent})
